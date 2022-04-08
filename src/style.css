@@ -1,4 +1,7 @@
-.instagram-icon {
-  color: blue;
-  width: 50px;
+body {
+  font-family: "Delius Unicase", cursive;
+}
+.initials {
+  font-size: 30px;
+  padding-right: 30px;
 }
