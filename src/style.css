@@ -1,7 +1,21 @@
 body {
   font-family: "Delius Unicase", cursive;
+  margin-top: 50px;
+  background: #c5a7c5;
 }
 .initials {
   font-size: 30px;
   padding-right: 30px;
+}
+.hero-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.card-body {
+  text-align: center;
+}
+.buttons {
+  margin: 5px 10px 5px 10px;
+  border-radius: 4px;
+  background: #ad82ad;
 }
