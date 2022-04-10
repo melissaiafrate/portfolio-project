@@ -1,7 +1,11 @@
+:root {
+  --primary-color: #c5a7c5;
+  --secondary-color: #ad82ad;
+}
 body {
   font-family: "Delius Unicase", cursive;
   margin-top: 50px;
-  background: #c5a7c5;
+  background: var(--primary-color);
 }
 .initials {
   font-size: 30px;
@@ -17,5 +21,5 @@ body {
 .buttons {
   margin: 5px 10px 5px 10px;
   border-radius: 4px;
-  background: #ad82ad;
+  background: var(--secondary-color);
 }
