@@ -1,11 +1,18 @@
 :root {
   --primary-color: #c5a7c5;
   --secondary-color: #ad82ad;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   font-family: "Delius Unicase", cursive;
   margin-top: 50px;
   background: var(--primary-color);
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .initials {
   font-size: 30px;
@@ -22,4 +29,33 @@ body {
   margin: 5px 10px 5px 10px;
   border-radius: 4px;
   background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.link-buttons {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.content-row {
+  margin: 50px;
+  align-content: center;
+}
+.social {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+.social:hover {
+  color: var(--secondary-color);
+}
+@media (max-width: 960px) {
+  .content-row {
+    text-align: center;
+  }
 }
