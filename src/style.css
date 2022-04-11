@@ -52,10 +52,13 @@ h3 {
   color: black;
 }
 .social:hover {
-  color: var(--secondary-color);
+  color: white;
 }
 @media (max-width: 960px) {
   .content-row {
     text-align: center;
+  }
+  .hero-row {
+    width: 500px;
   }
 }
