@@ -40,9 +40,12 @@ h3 {
   background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  margin-bottom: 20px;
 }
 .content-row {
   margin: 50px;
+  display: flex;
+  justify-content: center;
   align-content: center;
 }
 .social {
@@ -60,5 +63,15 @@ h3 {
   }
   .hero-row {
     width: 500px;
+    background: var(--primary-color);
+  }
+}
+@media (min-width: 500px) {
+  .content-images {
+    width: 500px;
+  }
+  .content-paragraphs {
+    width: 500px;
+    margin-bottom: 40px;
   }
 }
