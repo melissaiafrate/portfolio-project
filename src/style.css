@@ -61,14 +61,20 @@ footer {
 .social:hover {
   color: white;
 }
-.about-area {
-  margin: 50px;
+.about-area,
+.cert-page {
   margin-top: 100px;
+}
+.cert-page {
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
 }
 .aboutme-text {
   padding: 20px;
 }
-.aboutme-image {
+.aboutme-image,
+.cert-images {
   max-width: 300px;
 }
 @media (max-width: 960px) {
