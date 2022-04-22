@@ -14,6 +14,10 @@ h3 {
   text-align: center;
   margin-bottom: 20px;
 }
+footer {
+  margin-top: 100px;
+}
+
 .initials {
   font-size: 30px;
   padding-right: 30px;
@@ -56,6 +60,16 @@ h3 {
 }
 .social:hover {
   color: white;
+}
+.about-area {
+  margin: 50px;
+  margin-top: 100px;
+}
+.aboutme-text {
+  padding: 20px;
+}
+.aboutme-image {
+  max-width: 300px;
 }
 @media (max-width: 960px) {
   .content-row {
